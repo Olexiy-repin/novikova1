@@ -17,7 +17,9 @@ function updater(e, o, r, t) {
 }
 window.onload = function() {
     updater(document.querySelector(".days"), document.querySelector(".hours"), document.querySelector(".minutes"), document.querySelector(".sec")), updater(document.querySelector(".days-02"), document.querySelector(".hours-02"), document.querySelector(".minutes-02"), document.querySelector(".sec-02"))
-}, $(".popup-youtube").magnificPopup({
+}
+
+$(".popup-youtube").magnificPopup({
     disableOn: 700,
     type: "iframe",
     mainClass: "mfp-fade",
@@ -38,5 +40,15 @@ window.onload = function() {
           src: '//www.youtube.com/embed/%id%?autoplay=1&rel=0&showinfo=0&enablejsapi=1'
         }
       }
+    },
+// Tracks Youtube video state changes (so we can close the video when it ends)
+    callbacks: {
+      open: function() {
+        new YT.Player('player', {
+          events: {
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
     }
-});
+  });
