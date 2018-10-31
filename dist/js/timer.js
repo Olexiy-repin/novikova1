@@ -40,15 +40,5 @@ $(".popup-youtube").magnificPopup({
           src: 'https://www.youtube.com/embed/L4bMlL9jzbw?autoplay=1;&amp;controls=0;rel=0'
         }
       }
-    },
-// Tracks Youtube video state changes (so we can close the video when it ends)
-    callbacks: {
-      open: function() {
-        new YT.Player('player', {
-          events: {
-            'onStateChange': onPlayerStateChange
-          }
-        });
-      }
     }
   });
