@@ -37,7 +37,7 @@ $(".popup-youtube").magnificPopup({
         youtube: {
           index: 'youtube.com/',
           id: 'v=L4bMlL9jzbw',
-          src: 'https://www.youtube.com/embed/%id%?autoplay=1&rel=0&showinfo=0&enablejsapi=1'
+          src: 'https://www.youtube.com/embed/L4bMlL9jzbw?autoplay=1;&amp;controls=0;rel=0'
         }
       }
     },
