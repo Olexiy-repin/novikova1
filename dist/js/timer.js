@@ -34,7 +34,7 @@ window.onload = function() {
       patterns: {
         youtube: {
           index: 'youtube.com/',
-          id: 'v=',
+          id: 'v=L4bMlL9jzbw',
           src: '//www.youtube.com/embed/%id%?autoplay=1&rel=0&showinfo=0&enablejsapi=1'
         }
       }
