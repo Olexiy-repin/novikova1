@@ -19,26 +19,26 @@ window.onload = function() {
     updater(document.querySelector(".days"), document.querySelector(".hours"), document.querySelector(".minutes"), document.querySelector(".sec")), updater(document.querySelector(".days-02"), document.querySelector(".hours-02"), document.querySelector(".minutes-02"), document.querySelector(".sec-02"))
 }
 
-$(".popup-youtube").magnificPopup({
-    disableOn: 700,
-    type: "iframe",
-    mainClass: "mfp-fade",
-    removalDelay: 160,
-    preloader: !1,
-    fixedContentPos: !1,
-
-    iframe: {
-      markup: '<div class="mfp-iframe-scaler">' +
-        '<div class="mfp-close"></div>' +
-        '<iframe id="player" class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
-        '</div>', // HTML markup of popup, `mfp-close` will be replaced by the close button
-// Converts Youtube links to embeded videos in Magnific popup.
-      patterns: {
-        youtube: {
-          index: 'youtube.com/',
-          id: 'v=L4bMlL9jzbw',
-          src: 'https://www.youtube.com/embed/L4bMlL9jzbw?autoplay=1;&amp;controls=0;rel=0'
-        }
-      }
-    }
-  });
+// $(".popup-youtube").magnificPopup({
+//     disableOn: 700,
+//     type: "iframe",
+//     mainClass: "mfp-fade",
+//     removalDelay: 160,
+//     preloader: !1,
+//     fixedContentPos: !1,
+//
+//     iframe: {
+//       markup: '<div class="mfp-iframe-scaler">' +
+//         '<div class="mfp-close"></div>' +
+//         '<iframe id="player" class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
+//         '</div>', // HTML markup of popup, `mfp-close` will be replaced by the close button
+// // Converts Youtube links to embeded videos in Magnific popup.
+//       patterns: {
+//         youtube: {
+//           index: 'youtube.com/',
+//           id: 'v=L4bMlL9jzbw',
+//           src: 'https://www.youtube.com/embed/L4bMlL9jzbw?autoplay=1;&amp;controls=0;rel=0'
+//         }
+//       }
+//     }
+//   });
