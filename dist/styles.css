@@ -97,7 +97,7 @@
 	width: 8.1rem;
 	position: absolute;
 	right: 7.8rem;
-	top: 22.6rem;
+	top: 14.6rem;
 }
 
 .sec-01__play-btn {
@@ -1617,12 +1617,16 @@ img.mfp-img {
 	background-repeat: no-repeat;
 }
 
+#sec-01 .timer-container > .timer-container {
+	margin-left: 11.7rem;
+}
+
 #sec-01 .row:first-of-type {
 	margin-bottom: 2rem;
 }
 
 .sec-01__play-btn-container {
-	top: 9.6rem;
+	top: 8.8rem;
 }
 
 .sec-01__logo {
@@ -2767,6 +2771,11 @@ img.mfp-img {
 	margin-bottom: 2.5rem;
 }
 
+#sec-05 .sec-01__timer-text {
+	text-align: center;
+	padding-right: 0;
+}
+
 }
 
 @media all and (max-width: 900px) {
@@ -2871,7 +2880,7 @@ img.mfp-img {
 }
 
 #sec-01 {
-	padding-bottom: 72.6rem;
+	padding-bottom: 65.6rem;
 	background-image: url("img/sec-01/novikova.png");
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -2885,7 +2894,7 @@ img.mfp-img {
 
 #sec-01 .row:first-of-type [class*=col-]:first-of-type {
 	position: absolute;
-	bottom: -47rem;
+	bottom: -39rem;
 }
 
 #sec-01 .row [class*=col-]:first-of-type {
@@ -2900,7 +2909,7 @@ img.mfp-img {
 
 #sec-01 .timer-container {
 	position: absolute;
-	bottom: -9rem;
+	bottom: -5rem;
 	left: 0;
 	width: 100%;
 }
