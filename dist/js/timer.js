@@ -1,7 +1,7 @@
 function updater(e, o, r, t) {
     var n = new Date(2018, 1, 2),
         // u = 2592e5;
-        u = 108000;
+        u = 108000000;
     setTimeout(function a() {
         var c = new Date,
             d = u - (c - n) % u,
