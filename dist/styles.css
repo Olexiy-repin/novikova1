@@ -1694,6 +1694,11 @@ img.mfp-img {
 	margin-bottom: 1rem;
 }
 
+#sec-05 .sec-01__timer-text {
+	color: #ff92ba;
+	padding-right: 3rem;
+}
+
 .timer-container-description-top {
 	font-family: OpenSM;
 	font-size: 1.25rem;
@@ -2256,6 +2261,10 @@ img.mfp-img {
 	background-position: top;
 	background-size: auto;
 	background-repeat: no-repeat;
+}
+
+#sec-01 .timer-container > .timer-container {
+	margin-left: 12.1rem;
 }
 
 #sec-01 .row {
@@ -2951,6 +2960,10 @@ img.mfp-img {
 	width: 100%;
 	margin-bottom: 1rem;
 	text-align: center;
+}
+
+#sec-05 .sec-01__timer-text {
+	color: #ff92ba;
 }
 
 .sec-02__card-container {
